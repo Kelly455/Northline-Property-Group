@@ -10,6 +10,6 @@
     {"family": "Instrument Serif", "source": "Google Fonts", "license": "OFL"},
     {"family": "Manrope", "source": "Google Fonts", "license": "OFL"}
   ],
-  "colors": {"brand": "#1f4d45", "accent": "#c8a15a", "bg": "#f7f6f2", "text": "#17211e"},
+  "colors": {"brand": "#0b1220", "accent": "#2563eb", "bg": "#f3f6fc", "text": "#111827"},
   "customizable": {"brand": true, "accent": true, "brandName": true, "heading": true}
 }

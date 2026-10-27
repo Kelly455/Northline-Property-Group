@@ -33,9 +33,10 @@ The website was customized from the Haven real estate starter template. The proj
 
 - `index.html` — Main homepage and property listings
 - `listing.html` — Individual property detail page
-- `main.js` — Property data and interactive website functionality
+- `assets/js/main.js` — Property data and interactive website functionality
+- `assets/css/style.css` — Website styling
 - `assets/` — Website images, stylesheets, and supporting assets
-- `licenses/` — Original license and related notices
+- `LICENSE` — Original template license
 - `template.json` — Template metadata
 
 ## Running the Website Locally
@@ -66,4 +67,13 @@ Northline Property Group is a fictional portfolio project. It is not an operatin
 
 ## Credits
 - Photographs (the .jpg files in assets/img): Pexels, https://www.pexels.com, used under the Pexels License (https://www.pexels.com/license/).
-- House and room illustrations (.jpg): original artwork from the Haven real estate starter template by ZumaTools, used under its license (see LICENSE).
+- Template: Haven real estate starter template by ZumaTools, used under its license (see LICENSE).
+
+## Known issues
+- Listings 2 to 9 have no gallery photos, description, features or floor plan; their detail pages show only the data from LISTINGS.
+- The valuation and enquiry forms are demos and do not send anything.
+- The listing page's meta description and share preview always describe listing 1.
+- Listing cities do not match the agents' markets (Austin, Dallas, Atlanta, Miami).
+- Google Fonts (Instrument Serif, Manrope) are loaded but the stylesheet uses system fonts.
+- The "Save" button on the listing page scrolls to the enquiry form instead of saving.
+- The HVN- reference prefix comes from the original template.
