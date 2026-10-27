@@ -650,6 +650,53 @@
     );
     set('ref', 'HVN-' + (1000 + listing.id));
 
+        if (listing.id !== 1) {
+      $$('.detail h2').forEach(function (heading) {
+        var title = heading.textContent.trim();
+
+        if (
+          title !== 'About this home' &&
+          title !== 'Features' &&
+          title !== 'Floor plan & location'
+        ) {
+          return;
+        }
+
+        heading.style.display = 'none';
+
+        var next = heading.nextElementSibling;
+
+        while (next && next.tagName !== 'H2' && next.tagName !== 'SECTION') {
+          next.style.display = 'none';
+          next = next.nextElementSibling;
+        }
+      });
+
+      $$('.spec-table th').forEach(function (th) {
+        var label = th.textContent.trim();
+
+        if (
+          label === 'Heating & cooling' ||
+          label === 'Energy rating' ||
+          label === 'HOA fees'
+        ) {
+          th.parentElement.style.display = 'none';
+        }
+      });
+
+      $$('.aside .agent-card').forEach(function (cardEl) {
+        if (!cardEl.querySelector('form')) {
+          cardEl.style.display = 'none';
+        }
+      });
+
+      var floorLink = $('.photos .more');
+
+      if (floorLink) {
+        floorLink.style.display = 'none';
+      }
+    }
+
     if (listing.id !== 1) {
       $$('[data-listing-one]').forEach(function (element) {
         element.style.display = 'none';

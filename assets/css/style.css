@@ -1711,3 +1711,26 @@ h2 em {
   height: auto;
   object-fit: contain;
 }
+
+/* Phone header: keep logo and menu button inside the viewport */
+@media (max-width: 600px) {
+  .site-header .nav-cta { display: none; }
+  .site-header .brand-logo { width: min(220px, 56vw); }
+}
+
+/* Single-photo gallery: when no extra gallery photo is visible, the main photo gets the full width */
+.photos:not(:has(figure:not([hidden]) > img[data-gallery-img])) {
+  grid-template-columns: 1fr;
+  grid-template-rows: 460px;
+}
+
+.photos:not(:has(figure:not([hidden]) > img[data-gallery-img])) figure:first-child {
+  grid-column: 1 / -1;
+  grid-row: auto;
+}
+
+@media (max-width: 600px) {
+  .photos:not(:has(figure:not([hidden]) > img[data-gallery-img])) {
+    grid-template-rows: 280px;
+  }
+} 
