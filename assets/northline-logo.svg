@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" role="img" aria-labelledby="title desc">
+  <title id="title">Northline Property Group — Find Your Next Home</title>
+  <desc id="desc">Navy geometric N mark with a blue diagonal accent and four-pane detail, followed by NORTHLINE, blue PROPERTY GROUP, and the tagline FIND YOUR NEXT HOME.</desc>
+  <g transform="translate(0 0)">
+    <path fill="#102B49" d="M8 88V8h19l48 51V8h18v80H75L26 36v52z"/>
+    <path fill="#0B68D8" d="M8 78 42 55l11 10L8 91z"/>
+    <path fill="#102B49" d="M58 72h10v10H58zM72 72h10v10H72zM58 86h10v8H58zM72 86h10v8H72z"/>
+  </g>
+  <text x="116" y="43" fill="#102B49" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="43" font-weight="750" letter-spacing="2.5">NORTHLINE</text>
+  <text x="118" y="75" fill="#0B68D8" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="19" font-weight="600" letter-spacing="5.1">PROPERTY GROUP</text>
+  <text x="335" y="106" fill="#102B49" text-anchor="middle" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="10.5" font-weight="600" letter-spacing="3.3">FIND YOUR NEXT HOME</text>
+</svg>

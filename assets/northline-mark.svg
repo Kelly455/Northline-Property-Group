@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">Northline Property Group</title>
+  <rect width="48" height="48" rx="10" fill="#102B49"/>
+  <path fill="#F8FAFC" d="M9 38V8h7l16 17V8h7v30h-7L16 21v17z"/>
+  <path fill="#48A6FF" d="M9 34 21 25l5 4-17 11z"/>
+  <path fill="#F8FAFC" d="M27 33h4v4h-4zM33 33h4v4h-4zM27 39h4v3h-4zM33 39h4v3h-4z"/>
+</svg>
