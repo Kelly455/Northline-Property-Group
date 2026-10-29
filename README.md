@@ -74,6 +74,5 @@ Northline Property Group is a fictional portfolio project. It is not an operatin
 - The valuation and enquiry forms are demos and do not send anything.
 - The listing page's meta description and share preview always describe listing 1.
 - Listing cities do not match the agents' markets (Austin, Dallas, Atlanta, Miami).
-- Google Fonts (Instrument Serif, Manrope) are loaded but the stylesheet uses system fonts.
 - The "Save" button on the listing page scrolls to the enquiry form instead of saving.
 - The HVN- reference prefix comes from the original template.
